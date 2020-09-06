@@ -1,0 +1,6 @@
+framework module Pods_Vipul {
+  umbrella header "Pods-Vipul-umbrella.h"
+
+  export *
+  module * { export * }
+}

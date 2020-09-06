@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B4DADF0225F65BF00E4EE0F /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DADEF225F65BE00E4EE0F /* mapViewController.swift */; };
+		8BEA31D022575DF900FDD45D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA31CF22575DF900FDD45D /* AppDelegate.swift */; };
+		8BEA31D222575DF900FDD45D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA31D122575DF900FDD45D /* ViewController.swift */; };
+		8BEA31D522575DF900FDD45D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEA31D322575DF900FDD45D /* Main.storyboard */; };
+		8BEA31D722575DFA00FDD45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEA31D622575DFA00FDD45D /* Assets.xcassets */; };
+		8BEA31DA22575DFA00FDD45D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEA31D822575DFA00FDD45D /* LaunchScreen.storyboard */; };
+		8BEA31E522575DFA00FDD45D /* VipulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA31E422575DFA00FDD45D /* VipulTests.swift */; };
+		8BEA31F022575DFA00FDD45D /* VipulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA31EF22575DFA00FDD45D /* VipulUITests.swift */; };
+		8BEA31FE2257631A00FDD45D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA31FD2257631A00FDD45D /* Extensions.swift */; };
+		8BEA320022576ADB00FDD45D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA31FF22576ADB00FDD45D /* LoginViewController.swift */; };
+		8BEA320222576AF100FDD45D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA320122576AF100FDD45D /* HomeViewController.swift */; };
+		8BEA32042257719400FDD45D /* allCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA32032257719400FDD45D /* allCollectionViewCell.swift */; };
+		8BEA320622577C4200FDD45D /* claimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA320522577C4200FDD45D /* claimViewController.swift */; };
+		8BEA320822577ED100FDD45D /* claimTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEA320722577ED100FDD45D /* claimTableViewCell.swift */; };
+		F737FE1B40E859FF7D4E6B3B /* Pods_Vipul.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EE97EC01D98BE9C9F6CD96 /* Pods_Vipul.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BEA31E122575DFA00FDD45D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BEA31C422575DF900FDD45D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BEA31CB22575DF900FDD45D;
+			remoteInfo = Vipul;
+		};
+		8BEA31EC22575DFA00FDD45D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BEA31C422575DF900FDD45D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BEA31CB22575DF900FDD45D;
+			remoteInfo = Vipul;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FC5DAC32D30114E925750C /* Pods-Vipul.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vipul.debug.xcconfig"; path = "Target Support Files/Pods-Vipul/Pods-Vipul.debug.xcconfig"; sourceTree = "<group>"; };
+		27EE97EC01D98BE9C9F6CD96 /* Pods_Vipul.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vipul.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4DADEF225F65BE00E4EE0F /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		8BEA31CC22575DF900FDD45D /* Vipul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vipul.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEA31CF22575DF900FDD45D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BEA31D122575DF900FDD45D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BEA31D422575DF900FDD45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BEA31D622575DFA00FDD45D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BEA31D922575DFA00FDD45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BEA31DB22575DFA00FDD45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEA31E022575DFA00FDD45D /* VipulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VipulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEA31E422575DFA00FDD45D /* VipulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipulTests.swift; sourceTree = "<group>"; };
+		8BEA31E622575DFA00FDD45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEA31EB22575DFA00FDD45D /* VipulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VipulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEA31EF22575DFA00FDD45D /* VipulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipulUITests.swift; sourceTree = "<group>"; };
+		8BEA31F122575DFA00FDD45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEA31FD2257631A00FDD45D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8BEA31FF22576ADB00FDD45D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8BEA320122576AF100FDD45D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8BEA32032257719400FDD45D /* allCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allCollectionViewCell.swift; sourceTree = "<group>"; };
+		8BEA320522577C4200FDD45D /* claimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = claimViewController.swift; sourceTree = "<group>"; };
+		8BEA320722577ED100FDD45D /* claimTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = claimTableViewCell.swift; sourceTree = "<group>"; };
+		B7B3E716EC7468D2C4C5F1F3 /* Pods-Vipul.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vipul.release.xcconfig"; path = "Target Support Files/Pods-Vipul/Pods-Vipul.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BEA31C922575DF900FDD45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F737FE1B40E859FF7D4E6B3B /* Pods_Vipul.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEA31DD22575DFA00FDD45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEA31E822575DFA00FDD45D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D0ED166B7B39B730D5620CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27EE97EC01D98BE9C9F6CD96 /* Pods_Vipul.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BEA31C322575DF900FDD45D = {
+			isa = PBXGroup;
+			children = (
+				8BEA31CE22575DF900FDD45D /* Vipul */,
+				8BEA31E322575DFA00FDD45D /* VipulTests */,
+				8BEA31EE22575DFA00FDD45D /* VipulUITests */,
+				8BEA31CD22575DF900FDD45D /* Products */,
+				B79EF2F1AB9DA4C677AF3292 /* Pods */,
+				1D0ED166B7B39B730D5620CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8BEA31CD22575DF900FDD45D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BEA31CC22575DF900FDD45D /* Vipul.app */,
+				8BEA31E022575DFA00FDD45D /* VipulTests.xctest */,
+				8BEA31EB22575DFA00FDD45D /* VipulUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BEA31CE22575DF900FDD45D /* Vipul */ = {
+			isa = PBXGroup;
+			children = (
+				8BEA31CF22575DF900FDD45D /* AppDelegate.swift */,
+				8BEA31D122575DF900FDD45D /* ViewController.swift */,
+				8BEA31FF22576ADB00FDD45D /* LoginViewController.swift */,
+				8BEA320122576AF100FDD45D /* HomeViewController.swift */,
+				8BEA31FD2257631A00FDD45D /* Extensions.swift */,
+				8BEA31D322575DF900FDD45D /* Main.storyboard */,
+				8B4DADEF225F65BE00E4EE0F /* mapViewController.swift */,
+				8BEA320722577ED100FDD45D /* claimTableViewCell.swift */,
+				8BEA320522577C4200FDD45D /* claimViewController.swift */,
+				8BEA32032257719400FDD45D /* allCollectionViewCell.swift */,
+				8BEA31D622575DFA00FDD45D /* Assets.xcassets */,
+				8BEA31D822575DFA00FDD45D /* LaunchScreen.storyboard */,
+				8BEA31DB22575DFA00FDD45D /* Info.plist */,
+			);
+			path = Vipul;
+			sourceTree = "<group>";
+		};
+		8BEA31E322575DFA00FDD45D /* VipulTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BEA31E422575DFA00FDD45D /* VipulTests.swift */,
+				8BEA31E622575DFA00FDD45D /* Info.plist */,
+			);
+			path = VipulTests;
+			sourceTree = "<group>";
+		};
+		8BEA31EE22575DFA00FDD45D /* VipulUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BEA31EF22575DFA00FDD45D /* VipulUITests.swift */,
+				8BEA31F122575DFA00FDD45D /* Info.plist */,
+			);
+			path = VipulUITests;
+			sourceTree = "<group>";
+		};
+		B79EF2F1AB9DA4C677AF3292 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18FC5DAC32D30114E925750C /* Pods-Vipul.debug.xcconfig */,
+				B7B3E716EC7468D2C4C5F1F3 /* Pods-Vipul.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BEA31CB22575DF900FDD45D /* Vipul */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEA31F422575DFA00FDD45D /* Build configuration list for PBXNativeTarget "Vipul" */;
+			buildPhases = (
+				1FE5C51732E249D43D84477A /* [CP] Check Pods Manifest.lock */,
+				8BEA31C822575DF900FDD45D /* Sources */,
+				8BEA31C922575DF900FDD45D /* Frameworks */,
+				8BEA31CA22575DF900FDD45D /* Resources */,
+				8DFD9802A27D75B53D590BCA /* [CP] Embed Pods Frameworks */,
+				D1C1CDA25648C27514255E6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vipul;
+			productName = Vipul;
+			productReference = 8BEA31CC22575DF900FDD45D /* Vipul.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BEA31DF22575DFA00FDD45D /* VipulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEA31F722575DFA00FDD45D /* Build configuration list for PBXNativeTarget "VipulTests" */;
+			buildPhases = (
+				8BEA31DC22575DFA00FDD45D /* Sources */,
+				8BEA31DD22575DFA00FDD45D /* Frameworks */,
+				8BEA31DE22575DFA00FDD45D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BEA31E222575DFA00FDD45D /* PBXTargetDependency */,
+			);
+			name = VipulTests;
+			productName = VipulTests;
+			productReference = 8BEA31E022575DFA00FDD45D /* VipulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BEA31EA22575DFA00FDD45D /* VipulUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEA31FA22575DFA00FDD45D /* Build configuration list for PBXNativeTarget "VipulUITests" */;
+			buildPhases = (
+				8BEA31E722575DFA00FDD45D /* Sources */,
+				8BEA31E822575DFA00FDD45D /* Frameworks */,
+				8BEA31E922575DFA00FDD45D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BEA31ED22575DFA00FDD45D /* PBXTargetDependency */,
+			);
+			name = VipulUITests;
+			productName = VipulUITests;
+			productReference = 8BEA31EB22575DFA00FDD45D /* VipulUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BEA31C422575DF900FDD45D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = kLab;
+				TargetAttributes = {
+					8BEA31CB22575DF900FDD45D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8BEA31DF22575DFA00FDD45D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8BEA31CB22575DF900FDD45D;
+					};
+					8BEA31EA22575DFA00FDD45D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8BEA31CB22575DF900FDD45D;
+					};
+				};
+			};
+			buildConfigurationList = 8BEA31C722575DF900FDD45D /* Build configuration list for PBXProject "Vipul" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BEA31C322575DF900FDD45D;
+			productRefGroup = 8BEA31CD22575DF900FDD45D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BEA31CB22575DF900FDD45D /* Vipul */,
+				8BEA31DF22575DFA00FDD45D /* VipulTests */,
+				8BEA31EA22575DFA00FDD45D /* VipulUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BEA31CA22575DF900FDD45D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEA31DA22575DFA00FDD45D /* LaunchScreen.storyboard in Resources */,
+				8BEA31D722575DFA00FDD45D /* Assets.xcassets in Resources */,
+				8BEA31D522575DF900FDD45D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEA31DE22575DFA00FDD45D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEA31E922575DFA00FDD45D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FE5C51732E249D43D84477A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vipul-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DFD9802A27D75B53D590BCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vipul/Pods-Vipul-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vipul/Pods-Vipul-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1C1CDA25648C27514255E6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Vipul/Pods-Vipul-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vipul/Pods-Vipul-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BEA31C822575DF900FDD45D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEA320622577C4200FDD45D /* claimViewController.swift in Sources */,
+				8BEA320222576AF100FDD45D /* HomeViewController.swift in Sources */,
+				8BEA320022576ADB00FDD45D /* LoginViewController.swift in Sources */,
+				8BEA32042257719400FDD45D /* allCollectionViewCell.swift in Sources */,
+				8BEA320822577ED100FDD45D /* claimTableViewCell.swift in Sources */,
+				8BEA31D222575DF900FDD45D /* ViewController.swift in Sources */,
+				8B4DADF0225F65BF00E4EE0F /* mapViewController.swift in Sources */,
+				8BEA31FE2257631A00FDD45D /* Extensions.swift in Sources */,
+				8BEA31D022575DF900FDD45D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEA31DC22575DFA00FDD45D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEA31E522575DFA00FDD45D /* VipulTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEA31E722575DFA00FDD45D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEA31F022575DFA00FDD45D /* VipulUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BEA31E222575DFA00FDD45D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BEA31CB22575DF900FDD45D /* Vipul */;
+			targetProxy = 8BEA31E122575DFA00FDD45D /* PBXContainerItemProxy */;
+		};
+		8BEA31ED22575DFA00FDD45D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BEA31CB22575DF900FDD45D /* Vipul */;
+			targetProxy = 8BEA31EC22575DFA00FDD45D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BEA31D322575DF900FDD45D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEA31D422575DF900FDD45D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BEA31D822575DFA00FDD45D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEA31D922575DFA00FDD45D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BEA31F222575DFA00FDD45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BEA31F322575DFA00FDD45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BEA31F522575DFA00FDD45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18FC5DAC32D30114E925750C /* Pods-Vipul.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Vipul/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kl.Vipul;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BEA31F622575DFA00FDD45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B3E716EC7468D2C4C5F1F3 /* Pods-Vipul.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Vipul/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kl.Vipul;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BEA31F822575DFA00FDD45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VipulTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kl.VipulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vipul.app/Vipul";
+			};
+			name = Debug;
+		};
+		8BEA31F922575DFA00FDD45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VipulTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kl.VipulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vipul.app/Vipul";
+			};
+			name = Release;
+		};
+		8BEA31FB22575DFA00FDD45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VipulUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kl.VipulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vipul;
+			};
+			name = Debug;
+		};
+		8BEA31FC22575DFA00FDD45D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VipulUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kl.VipulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vipul;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BEA31C722575DF900FDD45D /* Build configuration list for PBXProject "Vipul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEA31F222575DFA00FDD45D /* Debug */,
+				8BEA31F322575DFA00FDD45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEA31F422575DFA00FDD45D /* Build configuration list for PBXNativeTarget "Vipul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEA31F522575DFA00FDD45D /* Debug */,
+				8BEA31F622575DFA00FDD45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEA31F722575DFA00FDD45D /* Build configuration list for PBXNativeTarget "VipulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEA31F822575DFA00FDD45D /* Debug */,
+				8BEA31F922575DFA00FDD45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEA31FA22575DFA00FDD45D /* Build configuration list for PBXNativeTarget "VipulUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEA31FB22575DFA00FDD45D /* Debug */,
+				8BEA31FC22575DFA00FDD45D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BEA31C422575DF900FDD45D /* Project object */;
+}
